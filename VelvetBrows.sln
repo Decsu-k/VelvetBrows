@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VelvetBrows", "VelvetBrows\VelvetBrows.csproj", "{29853338-DCB5-4B4A-A2A6-9D34F1A8A5ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29853338-DCB5-4B4A-A2A6-9D34F1A8A5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29853338-DCB5-4B4A-A2A6-9D34F1A8A5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29853338-DCB5-4B4A-A2A6-9D34F1A8A5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29853338-DCB5-4B4A-A2A6-9D34F1A8A5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A856C266-21F0-4D9A-914F-585DE3468928}
+	EndGlobalSection
+EndGlobal
