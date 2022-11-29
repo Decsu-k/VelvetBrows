@@ -13,32 +13,22 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using VelvetBrows.AppDataFile;
-using VelvetBrows.Pages;
 
-namespace VelvetBrows
+namespace VelvetBrows.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для PageMain.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PageMain : Page
     {
-        public MainWindow() 
+        public PageMain()
         {
             InitializeComponent();
-            ConnectOdb.conObj = new BeautyShopEntities();
-            FrameObj.frameMain = FrmMain;
-
-            FrmMain.Navigate(new PageMain());
-    }
-
-        private void btnBack_Click(object sender, RoutedEventArgs e)
-        {
-            FrameObj.frameMain.GoBack();
         }
 
-        private void btnFaq_Click(object sender, RoutedEventArgs e)
+        private void btnProduct_Click(object sender, RoutedEventArgs e)
         {
-
+            FrameObj.frameMain.Navigate(new PageProduct());
         }
     }
 }

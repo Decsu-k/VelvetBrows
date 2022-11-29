@@ -28,6 +28,6 @@
                    Opacity=".1"
                    Width="490"></Image>
         </StackPanel>
-        <Frame x:Name="frmMain" Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
+        <Frame x:Name="FrmMain" Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
     </Grid>
 </Window>

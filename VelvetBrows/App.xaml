@@ -5,5 +5,81 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         
+        <!--Style for round burders-->
+        <Style TargetType="Border">
+            <Setter Property="CornerRadius" Value="6"/>
+        </Style>
+        <!--Style for default Button-->
+        <Style TargetType="Button" x:Key="mainBtn">
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#FFFF4A6D"/>
+            <Setter Property="FontSize" Value="17"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <!--Style for default TextBlok-->
+        <Style TargetType="TextBlock" x:Key="mainTxtb">
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="Foreground" Value="Black"/>
+
+            <Setter Property="FontSize" Value="17"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <!--Style for default TextBox-->
+        <Style TargetType="TextBox" x:Key="mainTxt">
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="17"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        
+        <Style TargetType="Image" x:Key="ImgSoruce">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        
+        <!--Style for default ComboBox-->
+        <Style TargetType="ComboBox" x:Key="mainCmbx">
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="17"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <!--Style for default RadioButton-->
+        <Style TargetType="RadioButton" x:Key="dfltRB">
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="17"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+        <Style TargetType="ListBoxItem" x:Key="LblRed">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Product.IsActive}" Value="False">
+                    <Setter Property="Background" Value="Red"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        
+        <!--Style for nodefault TextBlok-->
+        <Style TargetType="TextBlock" x:Key="prdctTxtb">
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="Foreground" Value="Black"/>
+
+            <Setter Property="FontSize" Value="17"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
     </Application.Resources>
 </Application>

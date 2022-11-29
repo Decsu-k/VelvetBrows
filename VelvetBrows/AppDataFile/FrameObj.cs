@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace VelvetBrows.AppDataFile
 {
-    internal class ConnectOdb
+    internal class FrameObj
     {
-        public static BeautyShopEntities conObj;
+        public static Frame frameMain;
     }
 }
