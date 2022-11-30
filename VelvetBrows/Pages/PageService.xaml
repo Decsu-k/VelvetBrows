@@ -26,7 +26,8 @@
                                 BorderBrush="Black"
                                 Style="{StaticResource LblRed}"
                                 Background="White"
-                                Width="600">
+                                HorizontalAlignment="Left"
+                                Width="640">
 
                                     <ListBoxItem.Resources>
                                         <Style TargetType="ListBoxItem"
@@ -43,30 +44,39 @@
                                         <TextBlock
                                         Name="StringImage"
                                         Visibility="Hidden"
-                                        Text="{Binding MainImagePath, StringFormat=../}"
+                                        Text="{Binding MainImagePath, StringFormat=..//{0}}"
                                         />
                                         <Image Source="{Binding Text, ElementName=StringImage}"
-                                           Style="{StaticResource ImgSource}"/>
+                                           Style="{StaticResource ImgService}"/>
                                         <TextBlock Text="{Binding Title}"
                                                Name="TxtNameServe"
-                                               Style="{StaticResource prdctTxtb}"
+                                               Style="{StaticResource titleTxtb}"
                                                />
                                         <StackPanel Orientation="Horizontal">
                                             <TextBlock Text="{Binding Cost}"
-                                                   Style="{StaticResource prdctTxtb}"
+                                                   Style="{StaticResource costTxtb}"
                                                    />
                                             <TextBlock Text="рублей"
-                                                   Style="{StaticResource prdctTxtb}"
+                                                   Style="{StaticResource costRubTxtb}"
+                                                   />
+                                            <TextBlock Text="за"
+                                                   Style="{StaticResource zaTxtb}"
+                                                   />
+                                            <TextBlock Text="{Binding DurationInSeconds}"
+                                                   Style="{StaticResource durationInSecondsTxtb}"
+                                                   />
+                                            <TextBlock Text="секунду"
+                                                   Style="{StaticResource secTxtb}"
                                                    />
                                         </StackPanel>
                                         <StackPanel Orientation="Horizontal"
                                                 HorizontalAlignment="Left">
                                             <Button Name="BtnEdit"
-                                                Style="{StaticResource mainBtn}"
+                                                Style="{StaticResource redactBtn}"
                                                 Click="BtnEdit_Click"
                                                 Content="Редактировать"/>
                                             <Button Name="BtnSalehistory"
-                                                Style="{StaticResource mainBtn}"
+                                                Style="{StaticResource historiBtn}"
                                                 Click="BtnSalehistory_Click"
                                                 Content="История продаж"/>
                                         </StackPanel>

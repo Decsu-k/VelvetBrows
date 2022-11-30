@@ -243,6 +243,42 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Beauty\122454.png" />
+    <Resource Include="Beauty\96.png" />
+    <Resource Include="Beauty\face.png" />
+    <Resource Include="Beauty\makeup.jpg" />
+    <Resource Include="Beauty\man.png" />
+    <Resource Include="Beauty\mask.jpeg" />
+    <Resource Include="Beauty\piling.jpg" />
+    <Resource Include="Beauty\soliarij.jpg" />
+    <Resource Include="Beauty\брови.png" />
+    <Resource Include="Beauty\Гречишный массаж.jpg" />
+    <Resource Include="Beauty\Декорирование нарощенных ресниц стразами.jpg" />
+    <Resource Include="Beauty\Демакияж.jpg" />
+    <Resource Include="Beauty\Депиляция воском.jpg" />
+    <Resource Include="Beauty\Европейский маникюр.jpg" />
+    <Resource Include="Beauty\ИК-сауна.jpg" />
+    <Resource Include="Beauty\Классический маникюр.png" />
+    <Resource Include="Beauty\Комбинированный маникюр.jpg" />
+    <Resource Include="Beauty\Контурная пластика.jpg" />
+    <Resource Include="Beauty\массаж.jpg" />
+    <Resource Include="Beauty\Мезотерапия.jpg" />
+    <Resource Include="Beauty\Моделирование ресниц.jpg" />
+    <Resource Include="Beauty\ногти.png" />
+    <Resource Include="Beauty\Окрашивание бровей.jpg" />
+    <Resource Include="Beauty\Парафинотерапия.jpg" />
+    <Resource Include="Beauty\Покрытие ногтей гель-лаком.jpg" />
+    <Resource Include="Beauty\Полировка ногтей.jpg" />
+    <Resource Include="Beauty\Прессотерапия.jpg" />
+    <Resource Include="Beauty\Прокол ушей пистолетом.png" />
+    <Resource Include="Beauty\Ресницы.png" />
+    <Resource Include="Beauty\Снятие ресниц.jpg" />
+    <Resource Include="Beauty\Стоун-терапия.jpg" />
+    <Resource Include="Beauty\стрижка.png" />
+    <Resource Include="Beauty\Укрепление ногтей гелем.jpg" />
+    <Resource Include="Beauty\Шугаринг.jpg" />
+    <Resource Include="Beauty\Экспресс SPA.png" />
+    <Resource Include="Beauty\Экспресс-педикюр.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

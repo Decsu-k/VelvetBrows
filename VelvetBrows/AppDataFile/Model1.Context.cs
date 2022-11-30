@@ -13,10 +13,10 @@ namespace VelvetBrows.AppDataFile
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class BeautyShopEntities : DbContext
+    public partial class BeautyShopEntities1 : DbContext
     {
-        public BeautyShopEntities()
-            : base("name=BeautyShopEntities")
+        public BeautyShopEntities1()
+            : base("name=BeautyShopEntities1")
         {
         }
     

@@ -25,7 +25,7 @@ namespace VelvetBrows
         public MainWindow() 
         {
             InitializeComponent();
-            ConnectOdb.conObj = new BeautyShopEntities();
+            ConnectOdb.conObj = new BeautyShopEntities1();
             FrameObj.frameMain = FrmMain;
 
             FrmMain.Navigate(new PageMain());

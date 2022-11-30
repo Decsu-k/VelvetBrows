@@ -8,6 +8,6 @@ namespace VelvetBrows.AppDataFile
 {
     internal class ConnectOdb
     {
-        public static BeautyShopEntities conObj;
+        public static BeautyShopEntities1 conObj;
     }
 }
