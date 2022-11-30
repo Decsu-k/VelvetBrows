@@ -22,7 +22,7 @@ namespace VelvetBrows.Pages
     /// </summary>
     public partial class PageEditNew : Page
     {
-        public PageEditNew()
+        public PageEditNew(Service service)
         {
             InitializeComponent();
         }

@@ -37,14 +37,15 @@ namespace VelvetBrows.Pages
             ListService.ItemsSource = ConnectOdb.conObj.Service.Where(x => x.Title.StartsWith(TxtSearch.Text) || x.Description.StartsWith(TxtSearch.Text)).ToList();
         }
 
+        private void BtnEdit_Click(object sender, RoutedEventArgs e)
+        {
+            FrameObj.frameMain.Navigate(new PageEditNew((sender as Button).DataContext as Service));
+        }
+
         private void BtnSalehistory_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void BtnEdit_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

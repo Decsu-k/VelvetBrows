@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "D:\Progect_D\VelvetBrows\VelvetBrows\AppDataFile\Model1.edmx" включено. 
+﻿// Создание кода T4 для модели "D:\Progect_D\tren1\VelvetBrows\VelvetBrows\AppDataFile\Model1.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.
