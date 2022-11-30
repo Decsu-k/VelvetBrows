@@ -16,6 +16,7 @@
                 <Button
                     Content="Услуги"
                     Name="btnService"
+                    Click="btnService_Click"
                     Style="{StaticResource mainBtn}"/>
                 <Button
                     Content="Клиенты"

@@ -30,5 +30,10 @@ namespace VelvetBrows.Pages
         {
             FrameObj.frameMain.Navigate(new PageProduct());
         }
+
+        private void btnService_Click(object sender, RoutedEventArgs e)
+        {
+            FrameObj.frameMain.Navigate(new PageService());
+        }
     }
 }

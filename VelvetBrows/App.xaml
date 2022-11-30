@@ -39,7 +39,7 @@
             <Setter Property="Margin" Value="5"/>
         </Style>
         
-        <Style TargetType="Image" x:Key="ImgSoruce">
+        <Style TargetType="Image" x:Key="ImgSource">
             <Setter Property="Width" Value="100"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
         </Style>
